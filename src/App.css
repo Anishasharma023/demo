@@ -1,3 +1,6 @@
+body{
+  background-image: url('./assets/jochem-raat-02zqyql2us4-unsplash.jpg');
+}
 .App {
   text-align: center;
   height: 500px;
