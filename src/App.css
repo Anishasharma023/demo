@@ -1,8 +1,8 @@
 body{
-  background-image: url('./assets/jochem-raat-02zqyql2us4-unsplash.jpg');
+  background-image: url('./assets/clear-sky.jpg');
+background-position: top;
 }
 .wrap{
-  background-color: aquamarine;
   width: 100%;
 }
 .App {
@@ -10,8 +10,9 @@ body{
   height: 500px;
   width: 400px;
   margin: 40px auto;
-  background-image: url('./assets/anton-repponen-3MNzGlQM7qs-unsplash.jpg');
-  background-repeat: no-repeat;
+  /*background-image: url('./assets/anton-repponen-3MNzGlQM7qs-unsplash.jpg');
+  background-repeat: no-repeat;*/
+  background-color: transparent;
   
 
 }
@@ -56,7 +57,7 @@ margin: 10px auto;
 box-shadow: 0px 5px rgb(0,0,0,0.2);
 appearance: none;
 border: none;
-background-color: rgba(255, 255, 255, 0.5);
+background-color: rgba(255, 255, 255, 0.8);
 color: #313131;
 font-size: 18px;
 outline: none;
