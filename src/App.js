@@ -39,6 +39,7 @@ function App() {
   }
 
   return (
+    <div className="wrap">
     <div className={(typeof weather.main != "undefined") ? 
     //((weather.main.temp>26) ? 'App clear' : 'App')
      ((weather.weather[0].main==="Clear") ? 'App clear' : 
@@ -50,7 +51,7 @@ function App() {
      'App') 
         : 'App'}>
 
-      <div className="fulldiv">
+      <div>
         <main>
           <h2>WEATHER</h2>
           {/*search box*/}
@@ -92,6 +93,7 @@ function App() {
           ) : ('')}
         </main>
       </div>
+    </div>
     </div>
   );
 }

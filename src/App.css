@@ -1,7 +1,7 @@
 body{
   background-image: url('./assets/jochem-raat-02zqyql2us4-unsplash.jpg');
 }
-.fulldiv{
+.wrap{
   background-color: aquamarine;
   width: 100%;
 }
