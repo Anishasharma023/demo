@@ -50,7 +50,7 @@ function App() {
      'App') 
         : 'App'}>
 
-      <div>
+      <div className="fulldiv">
         <main>
           <h2>WEATHER</h2>
           {/*search box*/}

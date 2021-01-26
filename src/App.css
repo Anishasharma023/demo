@@ -1,6 +1,10 @@
 body{
   background-image: url('./assets/jochem-raat-02zqyql2us4-unsplash.jpg');
 }
+.fulldiv{
+  background-color: aquamarine;
+  width: 100%;
+}
 .App {
   text-align: center;
   height: 500px;
@@ -8,7 +12,7 @@ body{
   margin: 40px auto;
   background-image: url('./assets/anton-repponen-3MNzGlQM7qs-unsplash.jpg');
   background-repeat: no-repeat;
-  background-color: aquamarine;
+  
 
 }
 
