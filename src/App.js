@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
+require('dotenv').config();
 
-//const api = {
- // key : "f54ffcd3580928b6ea60dea4b7aedc6d",
- //file changed base : "http://api.openweathermap.org/data/2.5/"
-//};
 
+const api_key = process.env.REACT_APP_API_KEY;
 function App() {
 
   const [query, setQuery] = useState('');
@@ -14,7 +12,7 @@ function App() {
   const search = evt =>{
     if(evt.key === "Enter"){
       //fetch(`${api.base}weather?q=${query}&APPID={api.key}`)  https://crossorigin.me/http://
-      fetch (`https://api.openweathermap.org/data/2.5/weather?q=${query}&units=metric&APPID=f54ffcd3580928b6ea60dea4b7aedc6d`)
+      fetch (`https://api.openweathermap.org/data/2.5/weather?q=${query}&units=metric&APPID=${api_key}`)
      .then(res => res.json())
       .then(result=>{
         setWeather(result);
